@@ -1,0 +1,52 @@
+<!--style for return button/hover-->
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: pink;
+  color: black;
+}
+
+<!--main look before hover-->
+.previous {
+  background-color: pink;
+  color: black;
+}
+
+.block p{
+	font-size: 20px;
+	padding: 3em;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+h1{
+	line-height: 300%;
+}
+
+
+section {
+	display: block;
+	max-width: 500px;
+	background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+	margin: 0 auto 1em;
+	height: 0px;
+	top: 50px;
+	position: relative;
+	border-right: .2em;
+	transform: preserve-3d;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
